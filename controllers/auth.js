@@ -45,8 +45,8 @@ const login = async (req, res) => {
   res
     .cookie("token", token, {
       httpOnly: true,
-      secure: true,
-      sameSite: "None",
+      secure: process.env.NODE_ENV === "production",
+      sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax",
       maxAge: 60 * 60 * 1000, // 1 hour
     })
     .status(StatusCodes.OK)

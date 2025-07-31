@@ -3,6 +3,7 @@ const { UnauthenticatedError } = require("../errors");
 
 const authenticateUser = async (req, res, next) => {
   const token = req.cookies.token;
+  console.log("cookies:", req.cookies);
 
   if (!token) {
     console.log("❌ No token found in cookies");
