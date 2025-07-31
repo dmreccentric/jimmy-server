@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "title": "meat pie",
+    "category": "pastries",
+    "price": 800,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748267684/Jimmy%E2%80%99s%20web/nzbah8ppfjn8t79syzsb.jpg",
+    "desc": "Flaky pastry filled with savory minced meat, potatoes, and spices"
+  },
+  {
+    "id": 2,
+    "title": "chicken Pie",
+    "category": "pastries",
+    "price": 1000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748267860/Jimmy%E2%80%99s%20web/n6fncdzv7xtchk6vschj.jpg",
+    "desc": "Golden crust wrapped around tender chicken, vegetables, and creamy seasoning."
+  },
+  {
+    "id": 3,
+    "title": "samosa",
+    "category": "pastries",
+    "price": 300,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748268126/Jimmy%E2%80%99s%20web/kufenh7cujg3eycthhdc.jpg",
+    "desc": "Crispy triangle-shaped pastry stuffed with spiced vegetables or meat."
+  },
+  {
+    "id": 4,
+    "title": "sharwama",
+    "category": "pastries",
+    "price": 2000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748276667/Jimmy%E2%80%99s%20web/olmrkqbycogiqyeou6cy.jpg",
+    "desc": "Juicy, seasoned meat wrapped in warm flatbread with veggies and sauce."
+  },
+  {
+    "id": 5,
+    "title": "burger",
+    "category": "pastries",
+    "price": 2500,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748268201/Jimmy%E2%80%99s%20web/elc8kjmjuj5ksk13zmnz.jpg",
+    "desc": "Classic sandwich stacked with a juicy patty, fresh toppings, and rich condiments."
+  },
+  {
+    "id": 6,
+    "title": "jollof rice",
+    "category": "foodtray",
+    "price": 3000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748268291/Jimmy%E2%80%99s%20web/vkowibtmhyg5sqr1rclf.jpg",
+    "desc": "West African rice dish cooked in a rich tomato and pepper sauce."
+  },
+  {
+    "id": 7,
+    "title": "Fried rice",
+    "category": "foodtray",
+    "price": 3000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748268375/Jimmy%E2%80%99s%20web/xfctwiyhz7xwkrjnehsn.jpg",
+    "desc": "Stir-fried rice with mixed veggies, eggs, and flavorful seasonings."
+  },
+  {
+    "id": 8,
+    "title": "spaggetti Bolognese",
+    "category": "foodtray",
+    "price": 3500,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748268479/Jimmy%E2%80%99s%20web/iv0spizocvmjkwn0oljm.jpg",
+    "desc": "Pasta tossed in a hearty, slow-cooked tomato and meat sauce."
+  },
+  {
+    "id": 9,
+    "title": "pepper soup",
+    "category": "foodtray",
+    "price": 2500,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748268672/Jimmy%E2%80%99s%20web/vhhxswdus2hvnxzchqlh.jpg",
+    "desc": "Spicy, aromatic broth with tender meat and traditional Nigerian spices."
+  },
+  {
+    "id": 10,
+    "title": "pepper chicken",
+    "category": "foodtray",
+    "price": 3000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748268590/Jimmy%E2%80%99s%20web/hwxoxqaepwis2rthczy1.jpg",
+    "desc": "Spicy, juicy chicken marinated in bold, peppery flavors."
+  },
+  {
+    "id": 11,
+    "title": "vanilla cake",
+    "category": "cake",
+    "price": 6000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748268867/Jimmy%E2%80%99s%20web/gvuewrpkfosdjlohn8mg.jpg",
+    "desc": "Light and fluffy cake with classic vanilla flavor and a soft crumb."
+  },
+  {
+    "id": 12,
+    "title": "chocolate cake",
+    "category": "cake",
+    "price": 7000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748276877/Jimmy%E2%80%99s%20web/qrmyh6dpeebsefg6uikx.jpg",
+    "desc": "Rich and moist chocolate layers topped with silky chocolate frosting."
+  },
+  {
+    "id": 13,
+    "title": "red velvet",
+    "category": "cake",
+    "price": 7500,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748276917/Jimmy%E2%80%99s%20web/v81ibliobpxc1plmohlb.jpg",
+    "desc": "Smooth, crimson cake with a hint of cocoa and a creamy cheese frosting."
+  },
+  {
+    "id": 14,
+    "title": "marble cake",
+    "category": "cake",
+    "price": 6500,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748276967/Jimmy%E2%80%99s%20web/bvgw5pqq8sjoquolzmii.jpg",
+    "desc": "A delicious swirl of vanilla and chocolate in every slice."
+  },
+  {
+    "id": 15,
+    "title": "fruit cake",
+    "category": "cake",
+    "price": 7000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748277021/Jimmy%E2%80%99s%20web/nfp5hjweokx0il9zkku3.jpg",
+    "desc": "Moist cake loaded with dried fruits and nuts, rich in flavor and tradition."
+  },
+  {
+    "id": 16,
+    "title": "virgin mojito",
+    "category": "drinks",
+    "price": 1500,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748277141/Jimmy%E2%80%99s%20web/vx2owolyyjts24zcduv2.jpg",
+    "desc": "Refreshing mix of mint, lime, and soda—cool and alcohol-free."
+  },
+  {
+    "id": 17,
+    "title": "chapman",
+    "category": "drinks",
+    "price": 1500,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748277238/Jimmy%E2%80%99s%20web/k5a0mb84sndqzrrnh6aw.jpg",
+    "desc": "A fizzy Nigerian cocktail with fruity, tangy, and bittersweet flavors."
+  },
+  {
+    "id": 18,
+    "title": "tigernut",
+    "category": "drinks",
+    "price": 1000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748277293/Jimmy%E2%80%99s%20web/noy7npap2wallplimjiw.jpg",
+    "desc": "Creamy, nutty drink made from sweet, earthy tigernuts—naturally dairy-free."
+  },
+  {
+    "id": 19,
+    "title": "milkshake",
+    "category": "drinks",
+    "price": 2000,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748277371/Jimmy%E2%80%99s%20web/ce0lhp5zomwyirigqmwf.jpg",
+    "desc": "Thick, creamy blend of milk and ice cream in a variety of sweet flavors."
+  },
+  {
+    "id": 20,
+    "title": "zobo",
+    "category": "drinks",
+    "price": 800,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748277459/Jimmy%E2%80%99s%20web/fllkplhh3jodxx49ohuo.jpg",
+    "desc": "Chilled hibiscus tea infused with spices and fruit for a tangy, vibrant taste."
+  },
+  {
+    "id": 21,
+    "title": "ginger",
+    "category": "drinks",
+    "price": 800,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1748277495/Jimmy%E2%80%99s%20web/b91a7ajexo7xkbxl1fkl.jpg",
+    "desc": "Warm and soothing herbal tea with a spicy ginger kick."
+  },
+  {
+    "id": 22,
+    "title": "small chops",
+    "category": "pastries",
+    "price": 2500,
+    "quantity": 1,
+    "img": "https://res.cloudinary.com/dzhhpr7f1/image/upload/v1749922223/74ee8bea-9f11-4e2d-82f5-c9c81020c709_sga6fr.jpg",
+    "desc": "Variety of tasty pastries woven into one sizable and affordable package."
+  }
+]
