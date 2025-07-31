@@ -45,12 +45,12 @@ const login = async (req, res) => {
   res
     .cookie("token", token, {
       httpOnly: true,
-      secure: false, // true in prod
-      sameSite: "Lax",
+      secure: process.env.NODE_ENV === "production",
+      sameSite: process.env.NODE_ENV === "production" ? "Strict" : "Lax",
       maxAge: 60 * 60 * 1000, // 1 hour
     })
     .status(StatusCodes.OK)
-    .json({ user: { username: user.username }, token });
+    .json({ user: { username: user.username } });
 };
 
 module.exports = {
