@@ -25,6 +25,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://improved-danell-gentlebot-a7291aca.koyeb.app",
+      "https://jimmy-web.vercel.app",
     ],
     credentials: true,
   })
