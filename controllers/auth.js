@@ -1,6 +1,7 @@
 const User = require("../model/User");
 const { StatusCodes } = require("http-status-codes");
 const { BadRequestError, UnauthenticatedError } = require("../errors");
+require("dotenv").config();
 
 // const register = async (req, res) => {
 //   const user = await User.create({ ...req.body });
@@ -42,6 +43,8 @@ const login = async (req, res) => {
   }
 
   const token = user.createJWT();
+  console.log("NODE_ENV:", process.env.NODE_ENV);
+
   res
     .cookie("token", token, {
       httpOnly: true,
@@ -53,7 +56,17 @@ const login = async (req, res) => {
     .json({ user: { username: user.username } });
 };
 
+const logout = (req, res) => {
+  res.clearCookie("token", {
+    httpOnly: true,
+    sameSite: "None",
+    secure: process.env.NODE_ENV === "production",
+  });
+  res.status(200).json({ message: "Logged out successfully" });
+};
+
 module.exports = {
   login,
   register,
+  logout,
 };
