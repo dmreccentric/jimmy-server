@@ -31,11 +31,13 @@ const login = async (req, res) => {
   if (!username || !password) {
     throw new BadRequestError("please provide username and password");
   }
+
   const user = await User.findOne({ username });
 
   if (!user) {
     throw new UnauthenticatedError("Invalid Credentials");
   }
+
   const isPasswordCorrect = await user.comparePassword(password);
 
   if (!isPasswordCorrect) {
@@ -43,13 +45,12 @@ const login = async (req, res) => {
   }
 
   const token = user.createJWT();
-  console.log("NODE_ENV:", process.env.NODE_ENV);
 
   res
     .cookie("token", token, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax",
+      secure: process.env.NODE_ENV === "production", // ✅ important!
+      sameSite: "None",
       maxAge: 60 * 60 * 1000, // 1 hour
     })
     .status(StatusCodes.OK)
