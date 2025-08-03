@@ -6,6 +6,7 @@ require("express-async-errors");
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const app = express();
+const path = require("path");
 const connectDB = require("./db/connect");
 const items = require("./routes/menu");
 const authRouter = require("./routes/auth");
@@ -36,6 +37,7 @@ app.use("/api/v1/menu", items);
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/auth", verifyRouter);
 app.use("/api/v1/admin", authenticateUser, editItems);
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 app.use(errorHandlerMiddleware);
 app.use(notFoundMiddleware);
