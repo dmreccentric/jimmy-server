@@ -21,7 +21,25 @@ const register = async (req, res) => {
       .json({ user: { name: user.username }, token });
   } catch (error) {
     console.error("❌ Register Error:", error);
-    res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({ msg: error.message });
+
+    // Handle duplicate username/email (Mongo error code 11000)
+    if (error.code === 11000) {
+      return res.status(StatusCodes.CONFLICT).json({
+        msg: "Username or email already taken",
+      });
+    }
+
+    // Handle validation errors
+    if (error.name === "ValidationError") {
+      return res.status(StatusCodes.BAD_REQUEST).json({
+        msg: Object.values(error.errors)
+          .map((val) => val.message)
+          .join(", "),
+      });
+    }
+
+    // All other errors
+    res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({ msg: "Server Error" });
   }
 };
 
